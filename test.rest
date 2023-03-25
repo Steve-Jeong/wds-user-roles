@@ -1,0 +1,48 @@
+
+GET http://localhost:3001
+Content-Type: application/json
+
+{
+  "userId" : 1,
+  "name" : "Steve Jeong"
+}
+
+###
+GET http://localhost:3001/dashboard
+Content-Type: application/json
+
+{
+  "userId" : 1
+}
+
+###
+GET http://localhost:3001/admin
+Content-Type: application/json
+
+{
+  "userId" : 1
+}
+
+###
+GET http://localhost:3001/projects/2
+Content-Type: application/json
+
+{
+  "userId" : 2
+}
+
+###
+GET http://localhost:3001/projects
+Content-Type: application/json
+
+{
+  "userId" : 1
+}
+
+###
+DELETE http://localhost:3001/projects/2
+Content-Type: application/json
+
+{
+  "userId" : 2
+}
